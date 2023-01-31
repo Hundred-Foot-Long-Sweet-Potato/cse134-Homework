@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="utf-8" />
+	<meta name="description" content="Simple demo Web page for CSE 134B" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Personal Portfolio Website</title>
+    <link href="images/favicon.ico" rel="icon" />
+    <style>
+        main {
+            border-color: red;
+        }
+    </style>
+    <script></script>
+</head>
+
+<body>
+    <header>
+        <canvas id="myCanvas" width="1080" height="200" style="border:1px solid #000000;">
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "30px Arial";
+                ctx.fillText("Eric Chen's Portfolio", 10, 50);
+            </script>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="blue" />
+            </svg> 
+        </canvas> 
+        <h1>Personal Portfolio</h1>
+        <nav>
+            <a>Home Page <code>button?</code></a>
+            <a>Projects</a>
+            <a href="https://ucsd.edu">UCSD</a>
+        </nav>
+    </header>
+    <main>
+        <audio controls>
+            This browser most likely will not have audio.
+        </audio>
+        <video>
+            This page will not have a video (Maybe one for introduction or as a whole currently undecided).
+        </video>
+        <br>
+        <h2>Who I Am</h2>
+        <section>
+            <picture>
+                <source media = "(min-width:450px)" srcset="images/favicon.ico">
+            </picture>
+            <br>
+            <p>Hello, I'm <strong>Eric Chen</strong>! and I am a <span>Passionate</span> programmer. I make programs as a hobby but 
+                while I do stay home at lot due to this hobby I'm also outgoing and have particpated in game jams and other
+                programming events with other strangers in a team.
+            </p>
+            <label for="Favorite foods"> My favorite foods:</label>
+            <select name="food" id="food">
+                <optgroup label="foods">
+                    <option value="steak">Steak</option>
+                </optgroup>
+                <optgroup label="drinks">
+                    <option value="apple cider">Apple Cider</option>
+                </optgroup>
+            </select>
+        </section>
+        <hr>
+        <h2>Personal Focus</h2>
+        <p>I focus a lot on <b>Game Development</b> and <b>App developement</b> as I love to create things that interact with the consumer directly!</p>
+        <hr>
+        <h2>Technologies I know</h2>
+        <i>With focus on things I spent a lot of time on but <em>NOT</em> everything</i>
+        <aside>
+            <ul>
+                <li>Unity</li>
+                <li>Unreal Engine</li>
+                <ol>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>java</li>
+                    <li>JavaScript</li>
+                    <li>python</li>
+                    <li>html</li>
+                    <li>css</li>
+                </ol>
+            </ul>
+            <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
+            <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
+            <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
+            <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
+            <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
+        </aside>
+
+        <h3>Contacts</h3>
+        <pre>
+            Email: ericchen357@gmail.com
+            Phone: 760-587-9929
+        </pre>
+        <form>
+            <label for="Contactee">Name:</label><br>
+            <input type="text" id="Contactee" name="Contactee"><br>
+        </form>
+        <iframe src="www.ucsd.edu" title="I'm not going to use this"></iframe>
+    </main>
+    <footer>
+        <hr>
+        <p>💯This page was made with tears by Eric Chen 💯</p>
+    </footer>
+</body>
+
+</html>
