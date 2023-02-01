@@ -14,7 +14,6 @@
             border-color: red;
         }
     </style>
-    <script></script>
 </head>
 
 <body>
@@ -26,65 +25,67 @@
                 ctx.font = "30px Arial";
                 ctx.fillText("Eric Chen's Portfolio", 10, 50);
             </script>
-            <svg width="100" height="100">
-                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="blue" />
-            </svg> 
         </canvas> 
         <h1>Personal Portfolio</h1>
         <nav>
-            <a>Home Page <code>button?</code></a>
-            <a>Projects</a>
-            <a href="https://ucsd.edu">UCSD</a>
+            <a href="index.html">Home Page</a>
+            <a href="html/Projects.html">Projects</a>
+            <a href="html/Experiment.html">Experiment</a>
         </nav>
     </header>
     <main>
-        <audio controls>
-            This browser most likely will not have audio.
-        </audio>
-        <video>
-            This page will not have a video (Maybe one for introduction or as a whole currently undecided).
-        </video>
         <br>
         <h2>Who I Am</h2>
         <section>
             <picture>
                 <source media = "(min-width:450px)" srcset="images/favicon.ico">
+                <img src="images/favicon.ico" alt="Picture of Me" style="width:auto;" width="300" height="500">
             </picture>
             <br>
             <p>Hello, I'm <strong>Eric Chen</strong>! and I am a <span>Passionate</span> programmer. I make programs as a hobby but 
                 while I do stay home at lot due to this hobby I'm also outgoing and have particpated in game jams and other
                 programming events with other strangers in a team.
             </p>
-            <label for="Favorite foods"> My favorite foods:</label>
-            <select name="food" id="food">
-                <optgroup label="foods">
-                    <option value="steak">Steak</option>
-                </optgroup>
-                <optgroup label="drinks">
-                    <option value="apple cider">Apple Cider</option>
-                </optgroup>
-            </select>
         </section>
         <hr>
         <h2>Personal Focus</h2>
+        <figure>
+            <img src="images/favicon.ico" alt="Picture of Unity" width="300" height="500">
+            <figcaption>Unity the main Engine I work with</figcaption>
+        </figure>
         <p>I focus a lot on <b>Game Development</b> and <b>App developement</b> as I love to create things that interact with the consumer directly!</p>
         <hr>
         <h2>Technologies I know</h2>
         <i>With focus on things I spent a lot of time on but <em>NOT</em> everything</i>
         <aside>
             <ul>
-                <li>Unity</li>
-                <li>Unreal Engine</li>
-                <ol>
-                    <li>C++</li>
-                    <li>C#</li>
-                    <li>java</li>
-                    <li>JavaScript</li>
-                    <li>python</li>
-                    <li>html</li>
-                    <li>css</li>
-                </ol>
+                <li>
+                    <details>
+                        <summary>Unity</summary>
+                        <p>Unity is the main game engine I use nowadays and I focus mainly on it's 2D component. I mainly focus on the scripting side
+                            but since I have tried and made my own game I have experience in all aspects required in making a game in Unity.
+                        </p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Unreal</summary>
+                        <p>Unreal is the first game engine I really got into and I focused on the 3D side of it. I mainly used Unreal's visual scripting
+                            features to code but since I have knowledge in c++ I can use that as well. While I have prototyped 2 games in Unreal
+                            due to the high barriers required for 3D modeling and animation I eventually gave up on those projects.
+                        </p>
+                    </details>
+                </li>
             </ul>
+            <ol>
+                <li>C++</li>
+                <li>C#</li>
+                <li>java</li>
+                <li>JavaScript</li>
+                <li>python</li>
+                <li>html</li>
+                <li>css</li>
+            </ol>
             <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
             <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
             <img src = "images/favicon.ico" alt ="Icons related to tech I know" width="100" height="100"/>
@@ -97,15 +98,13 @@
             Email: ericchen357@gmail.com
             Phone: 760-587-9929
         </pre>
-        <form>
-            <label for="Contactee">Name:</label><br>
-            <input type="text" id="Contactee" name="Contactee"><br>
-        </form>
-        <iframe src="www.ucsd.edu" title="I'm not going to use this"></iframe>
     </main>
     <footer>
         <hr>
-        <p>💯This page was made with tears by Eric Chen 💯</p>
+        <textarea>
+            Made By Eric Chen.
+            With Plenty of tears.
+        </textarea>
     </footer>
 </body>
 
