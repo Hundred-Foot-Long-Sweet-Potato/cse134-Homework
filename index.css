@@ -37,6 +37,7 @@ h1{
     top:10px;
     right:16px;
     gap: 2rem;
+    width: 35%;
 }
 
 .links{
@@ -53,7 +54,7 @@ h1{
     width: 90%;
     height: 60%;
     justify-self: center;
-    margin-left: 5%;
+    margin: 5%;
     gap:10rem;
 }
 
