@@ -1,8 +1,8 @@
 * {
-    /*
+    
     border-style: solid;
     border-color:red;
-    border-width: 1px;*/
+    border-width: 1px;
 }
 
 a:link{
@@ -80,7 +80,6 @@ body{
     align-items: center;
     width: 90%;
     padding: 2%;
-    margin-right: 5%;
 }
 
 #personal-focus{
@@ -90,7 +89,6 @@ body{
     align-items: center;
     width: 90%;
     padding: 2%;
-    margin-right: 5%;
 }
 
 #Tech-I-Know{
