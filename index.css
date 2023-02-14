@@ -80,8 +80,7 @@ h1{
     flex-direction: row-reverse;
     gap:2em;
     align-items: center;
-    width: 60%;
-    float:right;
+    width: 100%;
 }
 
 #Tech-I-Know{
