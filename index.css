@@ -1,8 +1,8 @@
 * {
-    /*
+    
     border-style: solid;
     border-color:red;
-    border-width: 2px;*/
+    border-width: 1px;
 }
 
 a:link{
@@ -10,7 +10,7 @@ a:link{
 }
 
 h1{
-    font-size:3rem;
+    font: size 10svh;;
     color:white;
     font-style:bold;
     position: absolute;
@@ -22,6 +22,7 @@ h1{
 .header{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .banner{
