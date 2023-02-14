@@ -46,9 +46,13 @@ h1{
 }
 
 .Tech{
+    background-color: gray;
+    border-color: black;
+    border-width: 3px;
     width: 90%;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 
@@ -76,10 +80,7 @@ h1{
 }
 
 #Tech-I-Know{
-    background-color: gray;
-    border-color: black;
-    border-width: 3px;
     display:flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
