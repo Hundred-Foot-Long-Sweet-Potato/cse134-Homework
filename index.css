@@ -21,8 +21,18 @@ h1{
     max-height: 20rem;
 }
 
+.banner{
+    max-height: 18rem;
+}
+
 .nav{
     justify-content: space-evenly;
+}
+
+#banner-img{
+    height:100%;
+    width: 100%;
+    object-fit:scale-down;
 }
 
 #who-I-Am{
