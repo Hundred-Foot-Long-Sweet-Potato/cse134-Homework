@@ -39,18 +39,14 @@ header{
 }
 
 .nav{
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
+    display:flex;
+    justify-content:space-evenly;
+    width:size 12svh;
+    color:white;
+    font-style:bold;
+    font-size:12svh;
     top:1rem;
     right:1.25rem;
-    width: size 40svh;
-}
-
-.links{
-    font-size: size 12svh;
-    color: white;
-    font-style:bold;
 }
 
 .Tech{
