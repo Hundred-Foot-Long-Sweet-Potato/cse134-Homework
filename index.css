@@ -25,11 +25,11 @@ footer{
 }
 
 body{
-    background-color: aqua;
+    margin: 0px;
 }
 
 
-.banner{
+header{
     position: relative;
     text-align: center;
     border-color: blue;
