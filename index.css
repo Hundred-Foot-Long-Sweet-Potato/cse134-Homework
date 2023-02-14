@@ -66,4 +66,5 @@ h1{
     gap:2em;
     align-items: center;
     width: 60%;
+    align-self:last baseline;
 }
