@@ -24,6 +24,10 @@ footer{
     width: auto;
 }
 
+body{
+    overflow: hidden;
+}
+
 
 .banner{
     position: relative;
@@ -38,11 +42,11 @@ footer{
     position: absolute;
     top:1rem;
     right:1.25rem;
-    width: 40%;
+    width: size 40svh;
 }
 
 .links{
-    font-size: size 8svh;
+    font-size: size 12svh;
     color: white;
     font-style:bold;
 }
