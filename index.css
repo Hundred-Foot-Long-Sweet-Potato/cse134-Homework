@@ -5,6 +5,14 @@
     border-width: 2px;
 }
 
+.header{
+    display: flex;
+}
+
+.nav{
+    justify-content: space-evenly;
+}
+
 #who-I-Am{
     display:flex;
     flex-direction: row;
