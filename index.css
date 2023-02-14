@@ -22,14 +22,17 @@ h1{
 }
 
 .banner{
-    max-height: 18rem;
     position: relative;
     text-align: center;
 }
 
 .nav{
     justify-content: space-evenly;
+    position: absolute;
+    top:10px;
+    right:16px;
 }
+
 
 #banner-img{
     height:100%;
