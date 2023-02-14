@@ -1,0 +1,11 @@
+* {
+    font-size: 16px;
+}
+
+#who-I-Am{
+    display:flex;
+    border-color:red;
+    flex-direction: row;
+    gap:2em;
+    align-items: center;
+}
