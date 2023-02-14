@@ -41,12 +41,13 @@ header{
 .nav{
     display:flex;
     justify-content:space-evenly;
-    width:size 12svh;
+    width:size 80svh;
     color:white;
     font-style:bold;
-    font-size:12svh;
+    font-size:4svh;
+    /*
     top:1rem;
-    right:1.25rem;
+    right:1.25rem;*/
 }
 
 .Tech{
