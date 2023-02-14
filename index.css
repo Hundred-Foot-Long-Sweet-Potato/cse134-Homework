@@ -80,7 +80,7 @@ h1{
     gap:2em;
     align-items: center;
     width: 60%;
-    justify-content: end;
+    justify-self: end;
 }
 
 #Tech-I-Know{
