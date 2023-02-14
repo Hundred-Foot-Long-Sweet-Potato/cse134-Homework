@@ -1,8 +1,8 @@
 * {
-    
+    /*
     border-style: solid;
     border-color:red;
-    border-width: 1px;
+    border-width: 1px;*/
 }
 
 a:link{
@@ -29,6 +29,7 @@ body{
     text-align: center;
     border-color: blue;
     height:15rem;
+    width: 100%;
 }
 
 .nav{
@@ -75,7 +76,7 @@ body{
 #who-I-Am{
     display:flex;
     flex-direction: row;
-    gap:2em;
+    gap:1em;
     align-items: center;
     width: 90%;
     padding: 2%;
@@ -85,7 +86,7 @@ body{
 #personal-focus{
     display:flex;
     flex-direction: row-reverse;
-    gap:2em;
+    gap:1em;
     align-items: center;
     width: 90%;
     padding: 2%;
