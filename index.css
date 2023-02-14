@@ -82,7 +82,8 @@ h1{
     align-items: center;
     width: 60%;
     justify-self: end;
-    position: absolute;
+    position: relative;
+    right: 0;
 }
 
 #Tech-I-Know{
