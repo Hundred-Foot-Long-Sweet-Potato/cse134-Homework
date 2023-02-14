@@ -77,9 +77,9 @@ body{
     flex-direction: row;
     gap:2em;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding: 2%;
-    margin: 2rem;
+    margin-right: 5%;
 }
 
 #personal-focus{
@@ -87,9 +87,9 @@ body{
     flex-direction: row-reverse;
     gap:2em;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding: 2%;
-    margin: 2rem;
+    margin-right: 5%;
 }
 
 #Tech-I-Know{
