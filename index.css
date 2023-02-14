@@ -81,9 +81,7 @@ h1{
     gap:2em;
     align-items: center;
     width: 60%;
-    justify-self: end;
-    position: relative;
-    right: 0;
+    float:right;
 }
 
 #Tech-I-Know{
