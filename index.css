@@ -19,6 +19,11 @@ h1{
     transform: translate(-50%,-50%);
 }
 
+footer{
+    background-color: gray;
+    width: auto;
+}
+
 
 .banner{
     position: relative;
@@ -37,7 +42,7 @@ h1{
 }
 
 .links{
-    font-size: 1.4rem;
+    font-size: size 8svh;
     color: white;
     font-style:bold;
 }
