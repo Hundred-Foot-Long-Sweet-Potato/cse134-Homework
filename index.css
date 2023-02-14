@@ -18,14 +18,13 @@ h1{
 .header{
     display: flex;
     flex-direction: column;
-    max-height: 10rem;
 }
 
 .banner{
     position: relative;
     text-align: center;
     border-color: blue;
-    height:8rem;
+    height:12rem;
 }
 
 .nav{
