@@ -45,6 +45,12 @@ h1{
     
 }
 
+.Tech{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 #banner-img{
     height:100%;
@@ -66,5 +72,14 @@ h1{
     gap:2em;
     align-items: center;
     width: 60%;
-    align-self:last baseline;
+    align-self:flex-end;
+}
+
+#Tech-I-Know{
+    background-color: gray;
+    border-color: black;
+    border-width: 3px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
