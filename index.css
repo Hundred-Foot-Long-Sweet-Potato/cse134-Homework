@@ -23,6 +23,8 @@ h1{
 
 .banner{
     max-height: 18rem;
+    position: relative;
+    text-align: center;
 }
 
 .nav{
