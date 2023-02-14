@@ -1,7 +1,8 @@
 * {
+    /*
     border-style: solid;
     border-color:red;
-    border-width: 2px;
+    border-width: 2px;*/
 }
 
 a:link{
@@ -52,6 +53,8 @@ h1{
     width: 90%;
     height: 60%;
     justify-self: center;
+    margin-left: 5%;
+    gap:10rem;
 }
 
 .Tech-Description{
