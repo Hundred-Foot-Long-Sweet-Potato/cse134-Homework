@@ -10,7 +10,7 @@ a:link{
 }
 
 h1{
-    font-size:4rem;
+    font-size:3rem;
     color:white;
     font-style:bold;
     position: absolute;
@@ -40,7 +40,7 @@ h1{
 }
 
 .links{
-    font-size: 3rem;
+    font-size: 32px;
     color: white;
     font-style:bold;
     
