@@ -35,7 +35,7 @@ h1{
     position: absolute;
     top:10px;
     right:16px;
-    gap: 10px;
+    gap: 2em;
 }
 
 .links{
@@ -57,6 +57,7 @@ h1{
     flex-direction: row;
     gap:2em;
     align-items: center;
+    width: 60%;
 }
 
 #personal-focus{
@@ -64,4 +65,5 @@ h1{
     flex-direction: row-reverse;
     gap:2em;
     align-items: center;
+    width: 60%;
 }
