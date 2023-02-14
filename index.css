@@ -5,7 +5,17 @@
 #who-I-Am{
     display:flex;
     border-color:red;
+    border-width: 2px;
     flex-direction: row;
     gap:2em;
     align-items: center;
+}
+
+#personal-focus{
+    display:flex;
+    border-color:red;
+    border-width: 2px;
+    flex-direction: row;
+    gap:1em;
+    align-items: baseline;
 }
