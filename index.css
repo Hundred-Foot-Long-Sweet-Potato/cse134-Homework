@@ -1,27 +1,31 @@
-* {
-    
-    border-style: solid;
-    border-color:red;
-    border-width: 1px;
-}
-
 a:link{
     text-decoration: none;
 }
 
 h1{
-    font: size 20svh;;
-    color:white;
-    font-style:bold;
+    font-size:3.5svh;;
+    color:rgba(0, 0, 0, 0.74);
+    font-weight:bold;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    background-color: bisque;
+    padding: 7px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+
 }
 
 footer{
     background-color: gray;
     width: auto;
+    margin-bottom: 0;
+    border: black;
+    border-width: 2px;
+    border-radius: 2px;
+    border-style: solid;
 }
 
 body{
@@ -32,37 +36,34 @@ body{
 header{
     position: relative;
     text-align: center;
-    border-color: blue;
     border-width: 3px;
     height:15rem;
-    background-color: aquamarine;
     width: auto;
 }
 
 .nav{
     position: absolute;
-    border-color: blueviolet;
-    border-width: 3px;
     display:flex;
     justify-content:space-evenly;
-    width:40%;
+    width:34svh;
     color:white;
     font-weight: bold;
     font-size:2svh;
     top:1rem;
-    right:1.25rem;
+    right:0rem;
 }
 
 .Tech{
     background-color: gray;
+    border-style: solid;
     border-color: black;
     border-width: 3px;
+    border-radius: 4px;
     width: 90%;
     height: 60%;
     justify-self: center;
     margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     gap:10rem;
 }
 
@@ -102,4 +103,6 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    color:white;
+    background-color: rgb(43, 43, 43);
 }
