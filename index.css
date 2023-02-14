@@ -4,6 +4,7 @@
 
 #who-I-Am{
     display:flex;
+    border-style: solid;
     border-color:red;
     border-width: 2px;
     flex-direction: row;
@@ -13,9 +14,10 @@
 
 #personal-focus{
     display:flex;
+    border-style: solid;
     border-color:red;
     border-width: 2px;
     flex-direction: row;
-    gap:1em;
-    align-items: baseline;
+    gap:2em;
+    align-items: center;
 }
