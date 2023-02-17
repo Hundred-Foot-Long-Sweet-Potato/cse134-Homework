@@ -102,6 +102,8 @@ header{
     align-items: center;
     width: 90%;
     padding: 2%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 #personal-focus{
@@ -111,6 +113,8 @@ header{
     align-items: center;
     width: 90%;
     padding: 2%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 #Tech-I-Know{
