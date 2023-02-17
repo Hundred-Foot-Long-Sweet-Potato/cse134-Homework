@@ -74,12 +74,12 @@ header{
     margin-left: 5%;
     margin-bottom: 3%;
     gap:10rem;
-    transition: width 1s, height 1s, transform 1s;
+    transition: background-color 1s, color 1s,  transform 1s;
 }
 
 .Tech:hover{
-    width: 90%;
-    height: 60%;
+    background-color: cornsilk;
+    color: black;
 }
 
 .Tech-Description{
