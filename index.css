@@ -69,12 +69,12 @@ header{
     border-width: var(--border-width);
     border-radius: 4px;
     width: 85%;
-    height: 55%;
+    height: 60%;
     justify-self: center;
     margin-left: 5%;
     margin-bottom: 3%;
     gap:10rem;
-    transition: background-color 1s, color 1s,  transform 1s;
+    transition: background-color 2s, color 2s,  transform 2s;
 }
 
 .Tech:hover{
