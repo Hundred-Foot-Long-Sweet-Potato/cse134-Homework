@@ -1,8 +1,17 @@
+:root {
+    --border-width: 3px;
+}
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 a:link{
     text-decoration: none;
 }
 
 h1{
+    font-family: 'Abril Fatface', cursive;
     font-size:3.5svh;;
     color:rgba(0, 0, 0, 0.74);
     font-weight:bold;
@@ -36,7 +45,7 @@ body{
 header{
     position: relative;
     text-align: center;
-    border-width: 3px;
+    border-width: var(--border-width);
     height:15rem;
     width: auto;
 }
@@ -57,7 +66,7 @@ header{
     background-color: gray;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: var(--border-width);
     border-radius: 4px;
     width: 90%;
     height: 60%;
