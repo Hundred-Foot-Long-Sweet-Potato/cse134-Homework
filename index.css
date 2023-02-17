@@ -4,6 +4,14 @@
 
 *{
     font-family: 'Roboto Condensed','Roboto', sans-serif;
+    
+    @media screen (min-width: 700){
+        font-size: 1.25rem;
+    }
+
+    @media screen (min-width:900) {
+        font-size: 1.5rem;
+    }
 }
 
 a:link{
